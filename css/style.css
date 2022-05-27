@@ -1,8 +1,20 @@
 
+.grid-body {
+    background-color:  rgb(238, 253, 255);
+    border: 1.5px solid rgb(247, 141, 3);
+}
 
-#body {
-    background-color: rgb(220, 229, 245);
-    border: 0.5px solid rgb(247, 141, 3);
+.grid-container-item {
+    background-color: rgb(79, 149, 177);
+    display: grid;
+
+}
+
+
+.section {
+    text-align: center;
+    color:rgb(244, 173, 80);
+
 }
 
 /*Styling for the main title H1 tag in html file*/
@@ -12,9 +24,9 @@
     
 }
 
-.container {
-    background: rgb(238, 253, 255);
-    height: 300px;
+.containerFlex {
+    background: rgb(79, 149, 177);
+    height: 270px;
     display: flex;
     align-items: top;
 }
@@ -26,3 +38,5 @@
     color: rgb(239, 183, 109);
 
 }
+
+

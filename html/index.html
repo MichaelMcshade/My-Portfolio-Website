@@ -12,45 +12,75 @@
 </head>
 
 
-<body id="body">
+<body class="grid-body">
 
-    <header>
-            <h1 class="title">What You Need To know</h1>  
-
+    <!--Header Section Of Website-->
+    <header class="grid-container-item">
+            <h1 class="section">What You Need To know</h1>  
     </header>
+
     <!--spacing between different sections-->
     <br/>
     <br/>
     <br/>
     <br/>
-    <main>
+
+    <!--Main Section Of Website-->
+    <main class="grid-container-item">
         <!--container flexbox for introduction and languages-->
-        <div class="container">
+        <h2 class="section">Introduction</h2>
+        <div class="containerFlex">
             <div class="container-item" style="
                 flex: 0 0 200px;
             ">
-                <h2>Who Am I?</h2>
+                <h3>Who Am I?</h3>
+                    <p style="font-family:Arial, Helvetica, sans-serif; font-size: large;
+                    font-size: 20px; color:rgb"> 
+                        <bold>Hello, my Name is Michael O'Brien!
+                        I graduated from Clemson University in
+                        May, 2022. I am seeking work as a 
+                        frontend web developer!</bold>
+                    </p>
             </div>
 
 
             <div class="container-item" style="
                 flex: 0 0 200px;
             ">
-                <h2>What Do I Know?</h2>
+                <h3>What Do I Know?</h3>
+                    <p style="font-family:Arial, Helvetica, sans-serif; font-size: large;
+                    font-size: 20px; color:rgb"> 
+                       <ul>
+                           <li>Javascript</li>
+                           <li>HTML/CSS</li>
+                           <li>NodeJS</li>
+                           <li>Express Framework</li>
+                           <li>React Native</li>
+                           <li>C++/C</li>
+                           <li>Java</li>
+                           <li>Python</li>
+                           <li>git</li>
+                           <li>CI/CD</li>
 
+
+                       </ul>
+                    </p>
             </div>
 
 
             <div class="container-item" style="
                 flex: 0 0 300px;
             ">
-                <h2>Projects I've worked on:</h2>
+                <h3>Projects I've worked on:</h3>
                 <!--use grid here-->
                 <nav>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>React Native Applciation Created for a web development Class</li>
+                    <li>Backend integration with NodeJS/Express and Mysql</li>
+                    <li>Ongoing MindMap Journaling Webapp
+                        using Javascript
+                    </li>
+                    <li>Data Visualizer in Python</li>
                 </ul>
 
 
@@ -74,24 +104,37 @@
     <br/>
     <br/>
     <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>    
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
-    <footer>
-
+     <!--Footer Section Of Website-->
+    <footer class="grid-container-item">
+          <!--container flexbox for introduction and languages-->
+          <h2 class="section">Additional Information</h2>
+          <div class="containerFlex">
+              <div class="container-item" style="
+                  flex: 0 0 500px;
+              ">
+                  <h3>Contact Information</h3>
+                      <p style="font-family:Arial, Helvetica, sans-serif; font-size: large;
+                      font-size: 20px; color:rgb"> 
+                         <ul>
+                            <li>email: michaelobrien3563@gmail.com</li>
+                            
+                         </ul>
+                      </p>
+              </div>
+  
+  
+              <div class="container-item" style="
+                  flex: 0 0 500px;
+              ">
+                  <h3>Additional Links</h3>
+                  <!--use grid here-->
+                      <a href="https://github.com/MichaelMcshade">Github</a>
+                      <br>
+                      <a href="https://www.linkedin.com/in/mjob/">LinkedIn</a>
+              </div>
+  
+          </div>
+  
 
     </footer>
 </body>
