@@ -1,0 +1,28 @@
+
+
+#body {
+    background-color: rgb(220, 229, 245);
+    border: 0.5px solid rgb(247, 141, 3);
+}
+
+/*Styling for the main title H1 tag in html file*/
+.title {
+    text-align: center;
+    color:rgb(244, 173, 80);
+    
+}
+
+.container {
+    background: rgb(238, 253, 255);
+    height: 300px;
+    display: flex;
+    align-items: top;
+}
+
+
+.container-item {
+    margin: 15px 110px;
+    inline-size: 30px;
+    color: rgb(239, 183, 109);
+
+}
